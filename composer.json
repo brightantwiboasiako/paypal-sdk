@@ -11,14 +11,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "paypal/PayPal-PHP-SDK": "v1.7.1"
+    "paypal/rest-api-sdk-php": "*"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url":  "git@https://github.com/paypal/PayPal-PHP-SDK.git"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Paypal\\SDK\\": "src/"
