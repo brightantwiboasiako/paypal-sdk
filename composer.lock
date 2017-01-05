@@ -1,0 +1,30 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6c1b08a544a0e948a8d72d28d5cc8e08",
+    "content-hash": "0a0a2377f539850e6da583139dca022c",
+    "packages": [
+        {
+            "name": "paypal/PayPal-PHP-SDK",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2016-12-14 21:59:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
