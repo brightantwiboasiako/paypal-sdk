@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Paypal\\": "src/"
+      "PayPal\\": "src/"
     }
   }
 }
