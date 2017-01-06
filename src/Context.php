@@ -16,11 +16,16 @@ class Context
 {
 
     public static function make(){
-        return new ApiContext(
+        $context = new ApiContext(
             new OAuthTokenCredential(
                 config('paypal.client_id'), config('paypal.client_secret')
             )
         );
+
+        // Set the configurations
+        $context->setConfig(config('paypal.config'));
+
+        return $context;
     }
 
 }
