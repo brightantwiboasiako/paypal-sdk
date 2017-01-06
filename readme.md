@@ -8,3 +8,5 @@ a PHP (Laravel) project using composer.
 
 The PayPal SDK can be found here: 
 [PayPal-PHP-SDK](https://github.com/paypal/PayPal-PHP-SDK)
+
+:)
